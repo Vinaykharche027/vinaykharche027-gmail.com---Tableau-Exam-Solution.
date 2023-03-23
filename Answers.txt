@@ -9,7 +9,8 @@ area graph :
   2: In the Second step click on the Show me and select the chart type ("Area").
   3: In the third steps you have to select defferent colur to make in informative and attractive also, which help to differentiate between the product.
 there are two types of area chart in the tableau which are "Area chart (continuous)" and "Area chart (discrete).
-they both are divided on the x-axis in the Area chart Continuous use the continuous range of data on the x-axis, while area chart discrete uses distinct categories and groups.
+they both are divided on the x-axis in the Area chart Continuous use the continuous range of data on the x-axis, while area chart discrete uses distinct categories and
+groups.
 
 Line graph : 
 	line graph is the graph is used to represent the point or graph which is connected by the line.
@@ -42,7 +43,8 @@ for grouping more than one feild or column. steps are:
 	4: click on combine field. 
 Example in tableau: 
 1 (Group):
-in the example i have created a group of vehicals which is catergoried by the Route, i have created a one group of Vehicals which are run on the road, i have creted a separate group for the Water Route, air and seprated group of trains.
+in the example i have created a group of vehicals which is catergoried by the Route, i have created a one group of Vehicals which are run on the road, i have creted a
+separate group for the Water Route, air and seprated group of trains.
 grouping makes easy to plot my sales graph.
 2(combine feild) : 
 in the example i have combined the month and yearid feild beacause of that it makes easy to plot my sales graph with month and years.
@@ -51,15 +53,19 @@ in the example i have combined the month and yearid feild beacause of that it ma
 
 Q3: What is the use of color and size options in the marks cart of tableau ? (With the help of an
 example create one in tableau).
-ANS : The color and size options in Tableau's Marks card are used to visually enhance data representation. Color is used to visually distinguish between categorical data,
+ANS : The color and size options in Tableau's Marks card are used to visually enhance data representation. Color is used to visually distinguish between categorical 
+data,
  while size is used to represent numerical data. By using these options, Tableau allows users to create more visually striking and easy-to-understand visualizations.
-In the Tableau graph i have plot a packet bubble type of graph in which i have specified tha different colour to each circle and also each circle denoting the each type of state.
+In the Tableau graph i have plot a packet bubble type of graph in which i have specified tha different colour to each circle and also each circle denoting the each
+type of state.
 the size of circle showing the sales of the graph. we can specify the colour from the mark card.
 
 =======================================================================================================================================================================
 
 Q4: What are the different joins supported by tableau? 
-ANS: joins are used to combine data from two or more tables into a single table for analysis and visualization purposes. Inner join only includes rows with matching values in both tables, left join includes all the rows from the left table and matching rows from the right table, right join includes all the rows from the right table and matching rows from the left table, and full outer join includes all rows from both tables, even if there are no matches in either table.
+ANS: joins are used to combine data from two or more tables into a single table for analysis and visualization purposes. Inner join only includes rows with matching
+values in both tables, left join includes all the rows from the left table and matching rows from the right table, right join includes all the rows from the right
+table and matching rows from the left table, and full outer join includes all rows from both tables, even if there are no matches in either table.
      Tableau support  inner, left, right, and full outer joins.
 	Inner Join : 
 		 It returns the records (or rows) present in both tables If there is at least one match between columns
@@ -79,7 +85,8 @@ ANS: joins are used to combine data from two or more tables into a single table 
 
 Q5: Explain the steps to create dashboard in tableau with example.
 ANS: 	Dashboard is basically the way to present all the insights in one sheet.
-	Dashboard is used for presenting data in one sheet with the intracting way, you can also create a Dynamic dashboards using tableau which have the options and they change there insight by the requirement whithout change there main arrangment in the Dashboards.
+	Dashboard is used for presenting data in one sheet with the intracting way, you can also create a Dynamic dashboards using tableau which have the options and
+	they change there insight by the requirement whithout change there main arrangment in the Dashboards.
 	To create an Dashboard we have to follow the following steps such as : 
 	1. add connection/ Data source.
 	2. plot a graphs or create a insights into the sheet.
@@ -92,8 +99,13 @@ Example:
 ===========================================================================================================================================================================
 
 Q6 : Explain in detail the heat maps and scatter plot and how to create them with example.
-ANS :	Heat Map: Heatmap is defined as a graphical representation of data using colors to visualize the value of the matrix. In this to represent more common values or higher activities brighter colors basically reddish colors are used and to less common or activity values darker colors are preferred. Heatmap is also defined by the name of the shading matrix.
-	Scatter plot :As the name suggests, a scatter plot shows many points scattered in the Cartesian plane. It is created by plotting values of numerical variables as X and Y coordinates in the Cartesian plane. Tableau takes at least one measure in the Rows shelf and one measure in the Columns shelf to create a scatter plot. However, we can add dimension fields to the scatter plot which play a role in marking different colors for the already existing points in the scatter graph
+ANS :	Heat Map: Heatmap is defined as a graphical representation of data using colors to visualize the value of the matrix. In this to represent more common values
+or higher activities brighter colors basically reddish colors are used and to less common or activity values darker colors are preferred. Heatmap is also defined by
+the name of the shading matrix.
+Scatter plot :
+As the name suggests, a scatter plot shows many points scattered in the Cartesian plane. It is created by plotting values of numerical variables as X and Y coordinates
+in the Cartesian plane. Tableau takes at least one measure in the Rows shelf and one measure in the Columns shelf to create a scatter plot. However, we can add 
+dimension fields to the scatter plot which play a role in marking different colors for the already existing points in the scatter graph
 	scatter plot is generally used to see the parameter which are overlapping each other.
 	to create an Heat map steps are:
 		1. connect the data.
@@ -114,19 +126,23 @@ Example : Heat Map:
 =======================================================================================================================================================================
 
 Q7: How to create table calculations in tableau with examples.
-ANS: Table calculations in Tableau can be performed using a variety of functions such as running total, percent difference, moving average, rank, and many more. These functions can help you gain insights into your data and make informed decisions.
+ANS: Table calculations in Tableau can be performed using a variety of functions such as running total, percent difference, moving average, rank, and many more. 
+These functions can help you gain insights into your data and make informed decisions.
 	table calculations allow you to perform complex calculations on your data in real-time, without the need for manual intervention.
 	steps :
 		1. add the measure on markcard
 		2. right click
-		3. click on the table calculation (there are already predefined function also there to use them click on quick table calculation or if you want to write a function by yourself for that click on "Add Table Calculation".
+		3. click on the table calculation (there are already predefined function also there to use them click on quick table calculation or,
+		if you want to write a function by yourself for that click on "Add Table Calculation".
 Example: 
 	in the table calculation i have calculated the Sales of vehical in every month in percentage using table function.
 
 =======================================================================================================================================================================
 
 Q8: Explain in detail the distribution bands in tableau and how to create them with example.
-ANS: 	In Tableau, distribution bands are used to group a continuous variable into discrete segments, or bins. This is particularly useful when dealing with large datasets that may have a wide range of values. By creating distribution bands, you can visualize data more easily and identify patterns and trends.
+ANS: 	In Tableau, distribution bands are used to group a continuous variable into discrete segments, or bins. 
+This is particularly useful when dealing with large datasets that may have a wide range of values. By creating distribution bands, you can visualize data more easily 
+and identify patterns and trends.
 	To create distribution bands in Tableau, follow steps:
 		1.Drag the continuous variable you want to bin onto the Rows or Columns shelf.
 		2.go into the analytical section which is present on the left side upper corner.
@@ -144,18 +160,26 @@ ANS:	Creating a Bar Chart in Tableau:
 		1. Open Tableau and connect to your data source
 		2. Drag the dimension you want to measure to the "Angle" field in the Marks card
 		3. Drag the measure you want to chart to the "Size" field in the Marks card
-		4. Tableau will automatically create a pie chart.(If not created then click on show me and then click on pie chart.) You can customize the chart by adding labels, colors, and formatting options from the Marks card.
+		4. Tableau will automatically create a pie chart.(If not created then click on show me and then click on pie chart.) 
+			You can customize the chart by adding labels, colors, and formatting options from the Marks card.
 Example : Let's say you have a dataset of sales by region for a particular product. You want to create a bar chart to compare the sales for each region.
 	Open Tableau and connect to your data source
 	Drag the "Region" dimension to the Columns shelf
 	Drag the "Sales" measure to the Rows shelf
 	Tableau will automatically create a bar chart showing the sales for each region
-	You can customize the chart by adding labels, colors, and formatting options from the Marks card. For example, you can add labels to show the exact sales values for each region, or change the color scheme to highlight the highest or lowest sales.
-	To create a pie chart instead, follow the steps outlined above for creating a pie chart. Drag the "Region" dimension to the "Angle" field and the "Sales" measure to the "Size" field in the Marks card. Tableau will automatically create a pie chart showing the proportion of sales for each region.	
-Example (Tableau): in the tableau example i have create a bar chart and pie diagram for the sales of the vehicals in different region.
+You can customize the chart by adding labels, colors, and formatting options from the Marks card. For example, you can add labels to show the exact sales 
+values for each region, or change the color scheme to highlight the highest or lowest sales.
+To create a pie chart instead, follow the steps outlined above for creating a pie chart. Drag the "Region" dimension to the "Angle" field and the "Sales" 
+measure to the "Size" field in the Marks card. Tableau will automatically create a pie chart showing the proportion of sales for each region.	
+
+Example (Tableau): 
+	in the tableau example i have create a bar chart and pie diagram for the sales of the vehicals in different region.
 
 =======================================================================================================================================================================
 
 Q10: How to add story points on the dashboard.
-ANS: To add story points on the dashboard in Tableau, you need to first create a story by clicking on the "New Story" button on the toolbar. Once you have created your story, you can add story points by clicking on the "Add" button below the story point canvas. You can then drag and drop sheets or dashboards onto the story 	point canvas and arrange them in the order you want them to appear. You can also add text, images, and web pages to your story points. Once you have 		finished creating your story points, you can preview your story by clicking on the "Preview" button on the toolbar.
+ANS: To add story points on the dashboard in Tableau, you need to first create a story by clicking on the "New Story" button on the toolbar.
+Once you have created your story, you can add story points by clicking on the "Add" button below the story point canvas. 
+You can then drag and drop sheets or dashboards onto the story 	point canvas and arrange them in the order you want them to appear.
+You can also add text, images, and web pages to your story points. Once you have finished creating your story points, you can preview your story by clicking on the "Preview" button on the toolbar.
 Example: see in the tableau's file where i have create a dashboard of all the Question and add a story line in it.
